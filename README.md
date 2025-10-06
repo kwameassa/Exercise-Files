@@ -38,5 +38,22 @@ All subfolders are currently empty, allowing you to practice file creation, orga
 2. Open a terminal and navigate to the project directory.
 3. Use the provided files and folders to complete your lab exercises as instructed.
 
+## Downloading Exercise Files from GitHub (Ubuntu)
+
+To download the zipped exercise files from GitHub, unzip them, and move the folder to your `Documents` directory, use the following commands in your Ubuntu terminal:
+
+```bash
+# Download the zipped file
+wget https://github.com/kwameassa/Exercise-Files/archive/refs/heads/main.zip
+
+# Unzip the file
+unzip main.zip
+
+# Move the extracted folder to your Documents directory
+mv Exercise-Files-main ~/Documents/
+```
+
+This will place the `Exercise-Files-main` folder inside your `Documents` directory for easy access.
+
 ---
 These files are intended for educational use in Ubuntu/VMware labs. Feel free to modify or extend them for your own practice.
